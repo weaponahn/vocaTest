@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+/************************************************************************
+* filename		: default.css
+* description	: default  CSS import
+* author		: Lee hye won
+* date			: 2014.03.20
++ version		: v1.0
+************************************************************************/
+
+* {margin:0; padding:0;}
+body {margin:0; padding:0; font-size:12px; font-family:dotum, Arial, Helvetica, sans-serif; color:#000; border:none;}
+
+div, p, blockquote, pre, address, table, caption, th, td, form, fieldset, legend, hr, input, textarea{margin: 0; padding: 0;}
+ul, ol, li, dl, dt, dd {font-size:12px;margin:0; padding:0; list-style:none;}
+
+input, select, button {font-size:12px;}
+* html input, select, button {font-size:12px;}
+
+form input, form select, form label, form img, form button {font-family:dotum, Arial, Helvetica, sans-serif;vertical-align:middle;}
+
+fieldset {border:none;}
+fieldset input, fieldset select, fieldset label, fieldset img, fieldset button {vertical-align:middle;}
+legend {width:0; height:0; line-height:0; font-size:0; visibility:hidden; display:none;}
+
+img {border:0; font-size:0;}
+
+em {font-style: normal;}
+
+/** a tag set **/
+A:link, A:visited, A:active {color:#666; text-decoration: none !important;}
+A:hover {color:#999; text-decoration:none;}
+
+h1 {font-size:200%;}
+h2 {font-size:180%;}
+h3 {font-size:160%;}
+h4 {font-size:140%;}
+h5 {font-size:120%;}
+h6 {font-size:100%;}
+
+
+/** table set **/
+table {margin:0; padding:0; border-collapse:collapse; border-spacing:0;}
+caption {width:0; height:0; line-height:0; font-size:0; visibility:hidden; display:none;}
+
+/** position set **/
+.ftbox {position:relative; overflow:hidden;}
+.p_r {position:relative}
+.fl {float:left;}
+.fr {float:right;}
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.vr-t{vertical-align:top;}
+.vr-m{vertical-align:middle;}
+.cl{clear:both; font-size:0; line-height:0; height:0;}
+
+
+/** none set **/
+.bd_cl {border:0;}
+.bg_cl {background-image:none;}
+.bg_text {width:0; height:0; font-size:0px; visibility:hidden; display:none;}
+.db{display:block;}
+.dbn{display:none;}
+.bd_0{border:0px !important}
+
+/** input 공통 **/
+input.text{border:1px solid #DCDCDC; padding: 2px 0 2px 0; font-size:12px;}
+
+
+/** width 공통 **/
+.w10{width:10px;}
+.w20{width:20px;}
+.w30{width:30px;}
+.w40{width:40px;}
+.w50{width:50px;}
+.w60{width:60px;}
+.w70{width:70px;}
+.w80{width:80px;}
+.w90{width:90px;}
+.w100{width:100px;}
+
+
+/**  공통 여백 **/
+.mt8{margin-top:8px;}
+.mt10{margin-top:10px;}
+.mt20{margin-top:20px;}
+.mt30{margin-top:30px;}
+.mt40{margin-top:40px;}
+.mt50{margin-top:50px;}
+
+.mr10{margin-right:10px;}
+.mr20{margin-right:20px;}
+.mr30{margin-right:30px;}
+.mr40{margin-right:40px;}
+.mr50{margin-right:50px;}
+
+.mb5{margin-bottom:5px;}
+.mb9{margin-bottom:9px;}
+.mb10{margin-bottom:10px;}
+.mb12{margin-bottom:12px;}
+.mb14{margin-bottom:14px;}
+.mb15{margin-bottom:15px;}
+.mb17{margin-bottom:17px;}
+.mb20{margin-bottom:20px;}
+.mb30{margin-bottom:30px;}
+.mb40{margin-bottom:40px;}
+.mb50{margin-bottom:50px;}
+
+.ml10{margin-left:10px;}
+.ml20{margin-left:20px;}
+.ml30{margin-left:30px;}
+.ml40{margin-left:40px;}
+.ml50{margin-left:50px;}
+.ml100{margin-left:100px;}
+
+.pt10{padding-top:10px;}
+.pt20{padding-top:20px;}
+.pt30{padding-top:30px;}
+.pt40{padding-top:40px;}
+.pt50{padding-top:50px;}
+
+.pr5{padding-right:5px;}
+.pr10{padding-right:10px;}
+.pr20{padding-right:20px;}
+.pr30{padding-right:30px;}
+.pr40{padding-right:40px;}
+.pr50{padding-right:50px;}
+
+.pb10{padding-bottom:10px;}
+.pb20{padding-bottom:20px;}
+.pb30{padding-bottom:30px;}
+.pb40{padding-bottom:40px;}
+.pb50{padding-bottom:50px;}
+.pb100{padding-bottom:100px;}
+
+.pl10{padding-left:10px;}
+.pl20{padding-left:20px;}
+.pl30{padding-left:30px;}
+.pl40{padding-left:40px;}
+.pl50{padding-left:50px;}
+
+
+/** 공통 글자색 **/
+.f_red{color:red;}
+.f_yellow{color:yellow;}
+.f_green{color:green;}
+.f_blue{color:blue;}
+
+
+/** etc set **/
+.hand {cursor:pointer;}
+
+.small{font-size:11px;}
+
+/** table center fix **/
+.fixcenter {margin-left: auto; margin-right: auto;}
+
+/** 글자 굵기 **/
+.top-line { border-top: solid 1px #999; }
+.bottom-line { border-bottom: solid 1px #999; }
+
+#bbsview .bottom{padding:20px 0 50px 0 !important;}
+#bbsview .renew_recommend a{vertical-align:top !important; text-decoration: blink !important;}
+#bbsview .comment{height:16px;line-height:16px;vertical-align:top;}
+.ad_oneline{display:inline-block; text-align:center; font-weight:bold;}
+.ad_oneline img{vertical-align:middle;}
+.ad_oneline a {color:#666 !important;}
+.ad_oneline span .straight {color:#003399; text-decoration: underline;}
+
+.renew_recommend {display:inline-block; padding-left:15px;}
+.renew_recommend a {display:inline-block; color:#3EA9CD; text-decoration:underline !important; vertical-align:middle;}
+#bbsview .icon1{vertical-align:middle;}
+
+/* 알럿창 */
+

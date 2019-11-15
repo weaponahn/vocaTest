@@ -1,0 +1,97 @@
+.hackers_tepsVoca{margin:0px; padding:0px; font-size:12px;	font-family:dotum, Arial, Helvetica; color:#000; border:none; letter-spacing:-0.5px;}
+
+.hackers_tepsVoca ul{padding:0px; list-style:none;}
+
+.hackers_tepsVoca h1{font-size:24px;}
+.hackers_tepsVoca h2{font-size:18px;}
+.hackers_tepsVoca h3{font-size:14px;}
+
+.hackers_tepsVoca .container{background:url('../img/bg.png') no-repeat center; position:relative; width:800px;	height:583px; margin:0 auto;}
+
+/*=========상단=========*/
+.hackers_tepsVoca .top{position:absolute; left:490px; top:45px;}
+.hackers_tepsVoca .top span{display:inline-block; color:#fff;}
+.hackers_tepsVoca .top span.issue{position:relative; left:2px; letter-spacing:-2px; top:-4px;}
+.hackers_tepsVoca .top span.people{position:absolute; left:227px; top:5px;}
+.hackers_tepsVoca .top span.myung{position:absolute; top:0px;}
+
+/*=========타이틀=========*/
+.hackers_tepsVoca .txtBox{position:absolute; left:60px; top:252px;}
+.hackers_tepsVoca .txtBox h2.title{position:absolute; text-align:left; left:68px; top:20px; color:#ffffff; line-height:18px;}
+.hackers_tepsVoca .txtBox h2.title.height{top:13px;}
+
+/*=========맞힘, 틀림=======*/
+.hackers_tepsVoca .correctBox{position:absolute; left:122px; top:191px;}
+.hackers_tepsVoca .correctBox h1{position:absolute; display:inline-block; color:#ffffff; letter-spacing:0px; width:50px;}
+.hackers_tepsVoca .correctBox h1.answer{left:0px; text-align:center;}
+.hackers_tepsVoca .correctBox h1.wrong{left:114px; text-align:center;}
+.hackers_tepsVoca .correctBox span{}
+.hackers_tepsVoca .correctBox span.plus_a{position:absolute; left:45px; display:none; top:-20px;}
+.hackers_tepsVoca .correctBox span.plus_w{position:absolute; left:160px; display:none; top:-20px;}
+
+/*=========타임박스=========*/
+.hackers_tepsVoca .timeBox{position:absolute; left:573px; top:175px;}
+.hackers_tepsVoca .timeBox span.tbox{width:55px; height:55px; background:url('../img/watch.png') no-repeat 0 0; overflow:hidden; display:inline-block;}
+.hackers_tepsVoca .timeBox h1{position:relative; color:#ffffff; letter-spacing:19px; left:27px; display:inline-block; .left:87px; top:-17px; .top:-36px;}
+
+/*=========체크박스=========*/
+.hackers_tepsVoca .chkBox{position:absolute; left:87px; top:335px; .left:83px;}
+
+.hackers_tepsVoca .chkBox li.type1.on{background-position:-390px 0px;}
+.hackers_tepsVoca .chkBox li.type2.on{background-position:-390px -39px;}
+.hackers_tepsVoca .chkBox li.type3.on{background-position:-390px -78px;}
+.hackers_tepsVoca .chkBox li.type4.on{background-position:-390px -117px;}
+
+.hackers_tepsVoca .chkBox li.type1.dap{background-position:-780px 0px;}
+.hackers_tepsVoca .chkBox li.type2.dap{background-position:-780px -39px;}
+.hackers_tepsVoca .chkBox li.type3.dap{background-position:-780px -78px;}
+.hackers_tepsVoca .chkBox li.type4.dap{background-position:-780px -117px;}
+
+.hackers_tepsVoca .chkBox li.type1{background-position:0px 0px;}
+.hackers_tepsVoca .chkBox li.type2{background-position:0px -39px;}
+.hackers_tepsVoca .chkBox li.type3{background-position:0px -78px;}
+.hackers_tepsVoca .chkBox li.type4{background-position:0px -117px;}
+
+.hackers_tepsVoca .chkBox li h2.chkT.on{color:#ffffff;}
+.hackers_tepsVoca .chkBox li h2.chkT{color:#333333;}
+.hackers_tepsVoca .chkBox li h2.chkT.height{top:7px;}
+.hackers_tepsVoca .chkBox li h2{position:relative; text-align:left; width:320px; left:63px; top:12px; font-size:13px; line-height:13px;}
+
+.hackers_tepsVoca .chkBox li{margin:-4px 0px 7px 0px; background:url('../img/btns.png') no-repeat 0 0; display:block; width:390px; height:39px; cursor:pointer;	}
+
+.hackers_tepsVoca .oxBox{position:absolute; left:545px; top:235px; .left:545px; .top:245px;}
+.hackers_tepsVoca .oxBox li.o{display:none;}
+.hackers_tepsVoca .oxBox li.x{display:none;}
+.hackers_tepsVoca .oxBox li.o.on{display:block;}
+.hackers_tepsVoca .oxBox li.x.on{display:block;}
+
+
+/*=========재시작, 끝내기 버튼박스=========*/
+.hackers_tepsVoca .btnBox{position:absolute; left:540px; top:464px; .left:542px;}
+
+.hackers_tepsVoca .btnBox li.btn1.on{background-position:-123px 0px;}
+.hackers_tepsVoca .btnBox li.btn2.on{background-position:-123px -41px;}
+
+.hackers_tepsVoca .btnBox li.btn1{background-position:0px 0px;}
+.hackers_tepsVoca .btnBox li.btn2{background-position:0px -41px;	.position:absolute;	.left:120px;}
+
+.hackers_tepsVoca .btnBox li{background:url('../img/btnBox.png') no-repeat 0 0; width:123px; height:41px; cursor:pointer;	float:left;}
+
+/*처음 버튼 나오기*/
+.hackers_tepsVoca .start{background:url('../img/start_bg.png') no-repeat 0 0; position:absolute; width:800px; height:583px; top:0px;}
+.hackers_tepsVoca .start.on{display:none;}
+
+.hackers_tepsVoca .startBtn{position:absolute; width:229px; height:92px; top:263px; left:285px; cursor:pointer;}
+.hackers_tepsVoca .startBtn span.startOver{display:none;}
+.hackers_tepsVoca .startBtn span.startOver.on{display:block;}
+.hackers_tepsVoca .startBtn span.startOut{display:block;}
+.hackers_tepsVoca .startBtn span.startOut.on{display:none;}
+
+/*=========final==========*/
+.hackers_tepsVoca .final{background:url('../img/final_bg.png') no-repeat 0 0; position:absolute; width:800px; height:583px; margin:0 auto; display:none;}
+
+.hackers_tepsVoca .final.on{display:block;}
+
+.hackers_tepsVoca .final span{background:url('../img/final_btn.png') no-repeat 0 0; position:absolute; width:153px; height:44px; top:322px; left:326px; cursor:pointer;}
+.hackers_tepsVoca .final span.finalBtn{background-position:0px 0px;}
+.hackers_tepsVoca .final span.finalBtn.on{background-position:-153px 0px;}
