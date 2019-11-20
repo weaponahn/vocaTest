@@ -15,6 +15,7 @@
     var stopTime = 0;//멈출때!!
     var stopTimeLeng = 1;
     var length;//문제 총갯수
+    var Q_leng;//문제 총갯수
     var leng = 4;//체크갯수
     var i = 0;
     var myNum = -1;//내 답
@@ -71,6 +72,7 @@
                 var Question = $(xml).find('Question');
 
                 length = Question.length;//총문제 길이
+		Q_leng = length;
 
                 //이중배열 생성
                 selArr = new Array(length);
@@ -202,6 +204,9 @@
                 wrongNum++;
                 hgmPlay(2);//효과음 id: 0-시계, 1-맞음, 2-틀림, 3-버튼
                 $('.hackers_tepsVoca .chkBox li').eq(dapNum).addClass('dap');
+
+		Q_RandArr.push(Q_RandArr[Q_num]);
+		length++;
             }
         } else {
             wrongNum++;
@@ -380,6 +385,8 @@
         time = 5;
         answerNum = 0;
         wrongNum = 0;
+	Q_RandArr = [];
+	length = Q_leng;
 
         clearInterval(timer);
 
