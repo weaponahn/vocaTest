@@ -2,6 +2,7 @@
  * Created by tk on 2017/1/11.
  */
 (function (window, document) {
+    var Q_RandArr = [];//문제 배열
     var Q_Arr = [];//문제 배열
     var dapArr = [];//답 배열
     var random = [];//랜덤 배열
@@ -402,7 +403,8 @@
             if ($(this).index() == 0)//재시작
             {
                 allReFresh();//올리프레시
-                quizInit(Q_num);//퀴즈 만들기
+                Q_RandArr = makeRandom(Q_RandArr, length);//랜덤 만들기
+                quizInit(Q_RandArr[Q_num]);//퀴즈 만들기
             } else {//끝내기
                 window.open('about:blank', '_self').self.close();
             }
@@ -450,7 +452,7 @@
             clearInterval(timer);
             stopTime = 0;
             reFresh();//리프레시
-            quizInit(Q_num);//퀴즈 만들기
+            quizInit(Q_RandArr[Q_num]);//퀴즈 만들기
             $('.hackers_tepsVoca .timeBox span.tbox').css('background-position', '0px');
         } else {
             stopTime++;
@@ -484,12 +486,13 @@
             $('.hackers_tepsVoca .startOver, .hackers_tepsVoca .startOut').removeClass('on');
         });
 
+        Q_RandArr = makeRandom(Q_RandArr, length);//랜덤 만들기
         $('.hackers_tepsVoca .startBtn').click(function () {
             $('.hackers_tepsVoca .startOut').empty();
             $('.hackers_tepsVoca .start').addClass('on');
             sndPause();//사운드 정지
             btnPlay();//버튼 사운드
-            quizInit(Q_num);//퀴즈 만들기
+            quizInit(Q_RandArr[Q_num]);//퀴즈 만들기
             btnClick();//버튼 클릭
         });
     }
